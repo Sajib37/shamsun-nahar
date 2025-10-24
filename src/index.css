@@ -32,7 +32,7 @@ body {
     -webkit-touch-callout: none;
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
-    animation: gradientMove 6s ease infinite;
+    animation: gradientMove 16s ease infinite;
 }
 @keyframes gradientMove {
     0% {
