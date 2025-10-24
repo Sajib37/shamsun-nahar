@@ -89,6 +89,7 @@ function Navbar() {
           >
             <div className="w-9 h-9 md:w-12 md:h-12 rounded-b-lg flex items-center justify-center">
               <img src={logo} alt="Logo" className="w-full h-full object-contain" />
+              
             </div>
           </motion.button>
 
