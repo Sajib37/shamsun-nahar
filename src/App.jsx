@@ -63,7 +63,7 @@ const App = () => {
           {/* Background gradient overlay */}
           <div className="fixed inset-0">
             <div className="absolute inset-0 w-full h-full">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-800/80 via-purple-800/70 to-gray-950"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-800/80 via-purple-600/20 to-gray-950"></div>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-900/3 to-transparent"></div>
             </div>
           </div>
