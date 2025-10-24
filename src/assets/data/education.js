@@ -7,13 +7,13 @@ export const educations = [
   },
   {
     id: 2,
-    title: "MBA in Strategic and International Management (CGPA: 3.56/4)",
+    title: "MBA in Strategic and International Management",
     duration: "2023 - 2024",
     institution: "University of Dhaka, Dhaka, Bangladesh",
   },
   {
     id: 3,
-    title: "BBA in Management (CGPA: 3.13/4)",
+    title: "BBA in Management",
     duration: "2018 - 2023",
     institution: "University of Dhaka, Dhaka, Bangladesh",
   },

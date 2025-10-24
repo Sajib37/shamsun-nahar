@@ -312,15 +312,13 @@ function About() {
                                 <IoSchoolSharp className="text-3xl md:text-4xl" />
                               </div>
                               <div>
-                                <p className="text-sm sm:text-xl  font-medium uppercase">
+                                <p className="text-sm text-center md:text-start sm:text-xl  font-medium uppercase">
                                   {education.title}
                                 </p>
-                                <div className="flex">
-                                  <p className="text-xs sm:text-sm text-slate-400 mr-4 mb-2">
+                                  <p className="text-xs text-center md:text-start sm:text-sm text-slate-400 mr-4 mb-2">
                                     ({education.duration})
                                   </p>
-                                </div>
-                                <p className="text-sm sm:text-base">
+                                <p className="text-sm text-center md:text-start sm:text-base">
                                   {education.institution}
                                 </p>
                               </div>

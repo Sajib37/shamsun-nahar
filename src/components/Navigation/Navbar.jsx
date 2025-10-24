@@ -73,7 +73,7 @@ function Navbar() {
       className={`fixed w-full z-30 transition-all border-b border-transparent duration-500 ${
         scrolled
           ? "glass-effect shadow-xl border-b border-blue-900/30 backdrop-blur-xl"
-          : "bg-transparent"
+          : "bg-transparent "
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
