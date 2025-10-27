@@ -10,7 +10,7 @@ import {
   FaCogs,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/profile3.png";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -88,7 +88,7 @@ function Navbar() {
             whileTap={{ scale: 0.95 }}
           >
             <div className="w-9 h-9 md:w-12 md:h-12 rounded-b-lg flex items-center justify-center">
-              <img src={logo} alt="Logo" className="w-full h-full object-contain" />
+              <img src={logo} alt="Logo" className="w-full h-full object-contain rounded-full" />
               
             </div>
           </motion.button>
