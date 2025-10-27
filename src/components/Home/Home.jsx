@@ -69,7 +69,7 @@ function Home() {
           </p>
 
           <div className="hero-element flex flex-wrap gap-2">
-            <a href="/resume.pdf" download>
+            <a href="/resume-v2.pdf" download>
               <button className="cursor-pointer bg-gradient-to-r from-blue-500 to-purple-500 flex items-center gap-1 rounded-full px-2 md:px-4 hover:scale-95 transition-transform duration-2000 hover:shadow-lg hover:shadow-blue-500/30 text-white py-2 text-sm md:text-base font-semibold">
                 Download Resume <FaDownload />
               </button>
