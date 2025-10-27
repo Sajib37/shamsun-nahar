@@ -347,7 +347,7 @@ function About() {
               <div className="flex  items-center justify-center mt-10 md:mt-12 lg:mt-16">
                 <span className="w-10 md:w-24 h-[2px] bg-[#231a5e]"></span>
                 <span className="bg-[#231a5e] w-fit text-white p-2   md:text-2xl rounded-md">
-                  My Learning Path
+                  Skillset Overview
                 </span>
                 <span className="w-10 md:w-24 h-[2px] bg-[#231a5e]"></span>
               </div>

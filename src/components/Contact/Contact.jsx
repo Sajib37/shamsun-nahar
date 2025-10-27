@@ -40,14 +40,14 @@ const Contact = () => {
 
       try {
         await emailjs.send(
-          "service_ermp125", //service ID
-          "template_6jmsuem", //template ID
+          "service_qdrlptd", //service ID
+          "template_eid9b2a", //template ID
           {
             from_name: formData.name,
             from_email: formData.email,
             message: formData.message,
           },
-          "NyFYJGObUaA1UQvOZ" //public key
+          "bWNSlbkswDW3FCXqM" //public key
         );
 
         toast.success("Message sent successfully!!!", {

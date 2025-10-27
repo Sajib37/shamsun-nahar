@@ -9,6 +9,7 @@ import {
   FaMapMarkerAlt,
   FaFacebook,
 } from "react-icons/fa";
+import { FaGoogleScholar } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import logo from "../../assets/logo.png";
 
@@ -33,9 +34,9 @@ const Footer = () => {
       color: "hover:text-blue-400",
     },
     {
-      name: "Twitter",
-      icon: FaTwitter,
-      url: "#",
+      name: "Google Scholar",
+      icon: FaGoogleScholar,
+      url: "https://shorturl.at/sYjix",
       color: "hover:text-sky-400",
     },
     {

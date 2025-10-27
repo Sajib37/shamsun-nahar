@@ -33,8 +33,7 @@ function Navbar() {
     };
 
     const handleKeyPress = (e) => e.key === "Escape" && setIsOpen(false);
-    const handleResize = () =>
-      window.innerWidth >= 768 && setIsOpen(false);
+    const handleResize = () => window.innerWidth >= 768 && setIsOpen(false);
 
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("keydown", handleKeyPress);
@@ -88,7 +87,11 @@ function Navbar() {
             whileTap={{ scale: 0.95 }}
           >
             <div className="w-9 h-9 md:w-12 md:h-12 rounded-b-lg flex items-center justify-center">
-              <img src={logo} alt="Logo" className="w-full h-full object-contain rounded-full" />
+              <img
+                src={logo}
+                alt="Logo"
+                className="w-full h-full object-contain rounded-full"
+              />
               
             </div>
           </motion.button>
@@ -118,7 +121,11 @@ function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            {isOpen ? <FaTimes className="text-xl" /> : <FaBars className="text-xl" />}
+            {isOpen ? (
+              <FaTimes className="text-xl" />
+            ) : (
+              <FaBars className="text-xl" />
+            )}
           </motion.button>
         </div>
       </div>
@@ -149,7 +156,11 @@ function Navbar() {
       >
         <div className="px-6 py-4 border-b border-slate-700/50 bg-slate-800/30 flex items-center gap-3">
           <div className="w-8 h-8">
-            <img src={logo} alt="Logo" className="w-full h-full object-contain" />
+            <img
+              src={logo}
+              alt="Logo"
+              className="w-full h-full object-contain"
+            />
           </div>
           <div>
             <h3 className="font-bold text-slate-100 text-sm">Navigation</h3>

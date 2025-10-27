@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import TypeWriter from "./TypeWriter";
 import { FaFacebook, FaLinkedin, FaDownload } from "react-icons/fa";
+import { FaGoogleScholar } from "react-icons/fa6";
 
 const initialIsMobile =
   typeof window !== "undefined" ? window.innerWidth < 768 : false;
@@ -100,6 +101,19 @@ function Home() {
                 aria-label="LinkedIn"
               >
                 <FaLinkedin className="h-7 w-7" />
+              </a>
+              <a
+                href="https://shorturl.at/sYjix"
+                target="_blank"
+                rel="noreferrer"
+                className={`glass-effect text-white hover:text-blue-400 transition-all p-2 rounded-xl ${
+                  !isMobile
+                    ? "hover:-translate-y-1 transform duration-300 hover:shadow-lg hover:shadow-blue-500/20"
+                    : ""
+                }`}
+                aria-label="GoogleScholar"
+              >
+                <FaGoogleScholar className="h-7 w-7" />
               </a>
             </div>
           </div>
