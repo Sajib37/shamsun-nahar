@@ -173,17 +173,15 @@ function About() {
   return (
     <section className="pt-12 md:pt-16 px-2">
       <div className="max-w-7xl mx-auto ">
-        <div className=" mx-auto ">
+        <div className="w-[85%] mx-auto ">
           <h1 className=" font-bold text-center lg:text-start text-transparent lg:text-6xl md:text-4xl text-3xl bg-clip-text bg-gradient-to-r from-purple-600 to-orange-500">
             About <span className="text-white">Me</span>
           </h1>
         </div>
 
-        <section className=" mx-auto mt-6 md:mt-8 lg:mt-10 flex-col lg:flex-row-reverse flex gap-8 md:gap-12 items-start">
-          <div className="wrapper  rounded-full w-4/5 mx-auto flex-1 lg:w-96">
-            <div className="box rounded-full  p-4 bg-violet-600/70 w-full  flex items-center justify-center">
-              <img className=" rounded-full" src={profile} alt="" />
-            </div>
+        <section className="w-[85%] mx-auto mt-6 md:mt-8 lg:mt-10 flex-col lg:flex-row-reverse flex gap-8 md:gap-12 items-start">
+          <div className="max-w-96 border-4 p-2 border-blue-700  mx-auto flex-1">
+            <img className=" rounded-full" src={profile} alt="" />
           </div>
 
           <div className=" space-y-3 lg:space-y-4 px-2 flex-1">
@@ -271,7 +269,7 @@ function About() {
                   <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{once:true}}
+                    viewport={{ once: true }}
                     transition={{
                       duration: 0.6,
                       delay: 0.3,
@@ -315,9 +313,9 @@ function About() {
                                 <p className="text-sm text-center md:text-start sm:text-xl  font-medium uppercase">
                                   {education.title}
                                 </p>
-                                  <p className="text-xs text-center md:text-start sm:text-sm text-slate-400 mr-4 mb-2">
-                                    ({education.duration})
-                                  </p>
+                                <p className="text-xs text-center md:text-start sm:text-sm text-slate-400 mr-4 mb-2">
+                                  ({education.duration})
+                                </p>
                                 <p className="text-sm text-center md:text-start sm:text-base">
                                   {education.institution}
                                 </p>
